@@ -1,7 +1,7 @@
 # qt_post_get
 This is an example to make HTTP POST and GET requests in Qt with C++
 I have been uploaded all files of the project, but the main things are:
-
+/*
 1)Add QT += network in .pro
 
 2)include important Qnetwork libraries
@@ -29,3 +29,4 @@ I have been uploaded all files of the project, but the main things are:
     QObject::connect(&manager, SIGNAL(finished(QNetworkReply*)), &eventLoop, SLOT(quit()));
     QNetworkReply *reply = manager.post(request,"get=name");
     eventLoop.exec();
+*/
