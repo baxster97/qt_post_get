@@ -3,9 +3,7 @@ This is an example to make HTTP POST and GET requests in Qt with C++
 I have been uploaded all files of the project, but the main things are:
 
 1)Add QT += network in .pro
-
 2)include important Qnetwork libraries
-
 3)GET REQUEST EXAMPLE
 
     QEventLoop eventLoop;
